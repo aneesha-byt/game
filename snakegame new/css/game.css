@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+}
+div#container1{
+ background-color: skyblue;
+ height: 100vh;
+ width: 900px;
+ margin: 0px auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ 
+ }
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    border-color: black;
+    padding:15px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    
+}
+h1{
+    align-self: center;
+}
+.img{
+
+    display:flex;
+    align-self:center;
+}
+
+h2{
+    align-self: center;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
